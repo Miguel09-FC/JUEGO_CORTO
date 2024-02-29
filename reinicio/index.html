@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reinicio del Juego</title>
+</head>
+<body>
+    <div class="container">
+        <div class="error-container">
+            <h1>¡Espera!</h1>
+            <p>Estamos reiniciando el juego.</p>
+        </div>
+        <div class="astronaut-container">
+            <div class="astronaut"></div>
+        </div>
+    </div>
+    <script>
+        // Redirigir automáticamente al juego después de 3 segundos
+        setTimeout(() => {
+            window.location.href = "../juego/index.html";
+        }, 3000);
+    </script>
+</body>
+</html>
